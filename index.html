@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      background-color: green;
+      margin: 0;
+      padding: 10px;
+      color: #fff;
+    }
+    .todo-list {
+      display: flex;
+    }
+    .todo {
+      background-color: red;
+      margin: 10px;
+      padding: 10px;
+    }
+    .items-title {
+      display: grid;
+      grid-template-columns: repeat(3, 300px);
+    }
+    .items {
+      border: 2px solid red;
+      width: fit-content;
+      margin: 10px;
+    }
+  </style>
+  <body>
+    <h1>Todo App</h1>
+    <div class="items-title" id="items-title">
+     
+    </div>
+
+    <div class="task" id="task"></div>
+    <div class="todos" id="todos"></div>
+  </body>
+  <script src="index.js"></script>
+</html>
